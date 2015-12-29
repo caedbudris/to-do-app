@@ -1,0 +1,17 @@
+<div class="list">
+	<h1>List</h1>
+	<ul>
+		<% @items.each do |item| %>
+		<li>
+			<p><%= "#{item[:content]}" %></p>
+			<a href='/delete/<%= item.id %>' class='delete'>Delete</a>
+			<% if item[:done] %>	
+				<a href="#" class="btn done">Done</a>
+			<% else %>
+				<a href="#" class="btn not">Not Done</a>
+			<% end %>
+		</li>
+		<% end %>
+	</ul>
+	<a href='/new' class='new'>Add New Item</a>
+</div>

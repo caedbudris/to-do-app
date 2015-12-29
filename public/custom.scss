@@ -1,0 +1,78 @@
+html body {
+	margin:0;
+	padding:0;
+}
+.header {
+	background-color:black;
+}
+.header h1 {
+	color:white;
+	font-size:50px;
+	font-family:sans-serif;
+}
+
+.list {
+	font-family:sans-serif;
+}
+.list h1 {
+	text-align:center;
+	font-size:50px;
+}
+.list ul {
+	list-style-type:none;
+	padding:0;
+}
+.list li {
+	border:1px black solid;
+	padding:20px;
+}
+.list a {
+	display:inline;
+	text-decoration: none;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+}
+.list .done {
+	background-color:#d22d2d;
+	float:right;
+}
+.list .not {
+	background-color:#666666;
+	float:right;
+}
+.list .delete {
+    background-color:#3366cc;
+    float:right;
+}
+.list p {
+	display:inline;
+	font-size:20px;
+}
+.list .new {
+    background-color:#3366cc;
+}
+
+.container {
+	margin:0 auto;
+	max-width:340px;
+}
+.new {
+	text-align:center;
+	font-family:sans-serif;
+}
+.new h1 {
+	font-size:50px;
+}
+.new input[type='text'] {
+	width:250px;
+	font-size:20px;
+	outline:none;
+}
+.new button {
+	font-size:20px;
+	background-color:#3366cc;
+	color:white;
+	padding:5px;
+	border-radius:10px;
+}
